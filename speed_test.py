@@ -157,6 +157,8 @@ def analyse(start_time):
 
     summFile.close()
 
+    print("Run Completed Successfully")
+
 def main():
     start_time = measure()
     analyse(start_time)
